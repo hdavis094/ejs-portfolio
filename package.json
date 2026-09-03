@@ -1,0 +1,26 @@
+{
+  "name": "ejs-portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio for node200",
+  "homepage": "https://github.com/hdavis094/ejs-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/hdavis094/ejs-portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdavis094/ejs-portfolio.git"
+  },
+  "license": "ISC",
+  "author": "hunter davis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "morgan": "^1.12.0"
+  }
+}
