@@ -2,12 +2,11 @@
 
 
 <html>
-    <head>
-        <title>Hunter Thanks You</title>
-    </head>
+    <%- include('partials/header', {title:"Thank You!" }) %>
     <body>
-        <div>
+        <div class="alert alert-success text-center">
             Thank you <%= contact.firstName %> <%= contact.lastName %>
         </div>
     </body>
+    <%- include('partials/footer') %>
 </html>

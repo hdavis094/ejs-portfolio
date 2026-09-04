@@ -1,14 +1,10 @@
 <html>
-    <head>
-        <title>
-            Hunter's Portfolio
-        </title>
-    </head>
-    <body>
-        <div>
-            I am Hunter
-        </div>
-    </body>
-        
+    <%- include('partials/header', {title:"Hunter's Portfolio" }) %>
+    <div class="text-center">
+        <h1 class="display-4">I am Hunter</h1>
+        <p class="lead">Welcome to my Portfolio</p>
+        <a href="/contact" class="btn btn-primary">Get in Touch</a>
+    </div>    
     
+    <%- include('partials/footer') %>
 </html>
